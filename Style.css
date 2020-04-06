@@ -1,0 +1,164 @@
+body{
+    height: 667px;
+    width:375px;
+}
+.banner{
+    margin-top: -1%;
+    display: inline-block;
+    margin-left: -2px;
+    width: 100%;
+    height: 50px;
+    background-color: skyblue;
+}
+::placeholder{
+    font-size: medium;
+    color: grey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.banner #icon{
+    float: left;
+    padding-left: 0.5%;
+}
+.banner h3{
+    float: left;
+    padding-left: 32%;
+    padding-bottom: 1%;
+    padding-top: -1%;
+    color: white;
+}
+.banner #cross{
+    padding-top: 2%;
+    padding-left: 32%;
+    float:left;
+    height: 20px;
+    width:20px;
+}
+.forms{
+    display: inline-block;
+    width: 100%;
+    height: 200px;
+    margin-top: 30px;
+}
+.forms #scr{
+    float:left;
+    margin-top: 0px;
+    width:100%;
+    height:70px;
+}
+.forms #scr #h1{
+    color:grey;
+    float:left;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 1px;
+}
+.forms #scr #h2{
+    color:grey;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    float:left;
+    padding-left: 48%;
+}
+.forms .mail{
+    height: 40px;
+    width: 100%;
+    float: left;
+    padding-left: 1%;
+}
+.forms .mail #text1{
+    height: 35px;
+    width:190px;
+    padding-left: 6%;
+    float: left;
+    text-decoration: none;
+    background-color: white;
+    outline-style: none;
+    border-style: none;
+}
+.forms .mail #mail_img{
+    float: left;
+    height:25px;
+    width:25px;
+    float: left;
+    padding-top: 1.5%;
+    padding-left: 27%;
+}
+.forms .pass{
+    height: 40px;
+    width: 100%;
+    float: left;
+    padding-left: 1%;
+}
+.forms .pass #pass1{
+    height: 35px;
+    width:190px;
+    padding-left: 6%;
+    float: left;
+    text-decoration: none;
+    background-color: white;
+    outline-style: none;
+    border-style: none;
+}
+.forms .pass #unlock_img{
+    float: left;
+    height:25px;
+    width:25px;
+    float: left;
+    padding-top: 1.5%;
+    padding-left: 27%;
+}
+.forms #Sign_in{
+    margin-top: 112px;
+    background-color: skyblue;
+    width:100%;
+    height:40px;
+    border-radius: 6px;
+}
+.forms #Sign_in h3{
+    padding-top: 2.5%;
+    padding-left: 39%;
+    color: white;
+}
+#or{
+    margin-top: 5px;
+}
+.alternate{
+    width:100%;
+    height: 100px;
+}
+.alternate #fb{
+    margin-top: 25%;
+    border-radius: 5px;
+    width:96%;
+    height:40px;
+    background-color: rgba(0, 0, 255, 0.747);
+}
+.alternate #google{
+    border-radius: 5px;
+    margin-top: 10px;
+    width:96%;
+    height:40px;
+    background-color: rgba(255, 38, 0, 0.719);   
+}
+.alternate #fb #fb_img{
+    height: 30px;
+    width:30px;
+    padding-top: 0.7%;
+    padding-left: 46%;
+}
+.alternate #google #google_img{
+    height: 30px;
+    width:30px;
+    padding-top: 0.7%;
+    padding-left: 46%;
+}
+.alternate #epam{
+    border-radius: 5px;
+    margin-top: 46px;
+    width:96%;
+    height:40px;
+    background-color: rgba(175, 175, 18, 0.986);   
+}
+.alternate #epam h4{
+    padding-top: 3%;
+    color: white;
+    padding-left: 35%;
+}
